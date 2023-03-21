@@ -1,0 +1,21 @@
+{
+  "name": "@sms-forward/client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "dev": "nodemon"
+  },
+  "license": "GPL-3",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "dotenv": "^16.0.1",
+    "lodash": "^4.17.21",
+    "node-notifier": "^10.0.1",
+    "socket.io-client": "^4.5.1"
+  }
+}

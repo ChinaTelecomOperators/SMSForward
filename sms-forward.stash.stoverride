@@ -1,0 +1,19 @@
+name: 短信转发
+desc: https://github.com/ChinaTelecomOperators/SMSForward
+
+http:
+  mitm:
+    - jprx.m.qq.com
+    - scan.call.f.360.cn
+  script:
+    - match: (^https?:\/\/scan\.call\.f\.360\.cn\/ios_message\.php|^https?:\/\/jprx\.m\.qq\.com\/forward)
+      name: "sms-forward"
+      type: request
+      require-body: true
+      timeout: 120
+      # debug: true
+
+script-providers:
+  "sms-forward":
+    url: https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/sms-forward.js
+    interval: 86400
