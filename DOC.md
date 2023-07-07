@@ -72,7 +72,7 @@
 
 ## Stash 使用覆写
 
-[https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/sms-forward.rewrite.stash.stoverride](https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/sms-forward.rewrite.stash.stoverride)
+[https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/sms-forward.stash.stoverride](https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/sms-forward.stash.stoverride)
 
 ## Loon 使用插件
 
