@@ -1,5 +1,6 @@
 name: 短信转发
 desc: https://github.com/ChinaTelecomOperators/SMSForward
+icon: https://raw.githubusercontent.com/ChinaTelecomOperators/SMSForward/main/asset/1.png
 
 http:
   mitm:
