@@ -186,7 +186,11 @@ pnpm start
   </tr>
 </table>
 
-`https://github.com/ChinaTelecomOperators/SMSForward/tree/main/server`
+`https://github.com/ChinaTelecomOperators/SMSForward/tree/main/client`
+
+`Apple Silicon Macs` 需要修改 `package.json` 里的 `node-notifier`
+
+`"node-notifier": "github:Sebastian-Webster/node-notifier"`
 
 ```
 pnpm i
